@@ -1,0 +1,303 @@
+:root {
+    --yellow-color: #FACA00;
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/*header*/
+.header a {
+    color: #1F373D;
+}
+
+.header a:hover {
+    color: var(--yellow-color);
+}
+
+:root {
+    --yellow-color: #FACA00;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*header*/
+.header a {
+    color: #1F373D;
+}
+
+/* header */
+.navbar-nav .nav-link:hover {
+    color: var(--yellow-color) !important;
+}
+
+.active {
+    background-color: var(--yellow-color);
+}
+
+.header .active:hover {
+    color: white !important;
+}
+
+/* home */
+/* landing */
+.home {
+    height: calc(100vh - 80px);
+}
+
+.home .container {
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+
+.home .container img {
+    position: absolute;
+    left: 250px;
+}
+
+.home .container form {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.home form h3 {
+    font-size: 3rem;
+}
+
+form input[type="search"] {
+    padding: 20px;
+    width: 70%;
+    height: 3.5rem;
+    margin-right: -6px;
+    border: none;
+    box-shadow: 2px 4px 8px 0 rgb(0 0 0 / 34%);
+    position: relative;
+}
+
+
+
+form input[type="submit"] {
+    width: 100px;
+    height: 3.5rem;
+    border: none;
+    background: none;
+    background-color: var(--yellow-color);
+    position: relative;
+
+}
+
+
+form input[type="search"] {
+    font-size: 1rem;
+    padding-left: 3rem;
+
+}
+
+form input[type="search"]:focus {
+    border: none;
+    outline: none;
+}
+
+@media (max-width:767px) {
+    .home .container img {
+        position: absolute;
+        left: 0;
+    }
+
+    .container form {
+        width: 100%;
+    }
+
+    .container form {
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        top: 30%;
+        left: 15px
+    }
+}
+
+/* home */
+/* about */
+.about .info div {
+
+    background-color: #F6F5F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.about .info span {
+    font-size: 3rem;
+    color: var(--yellow-color);
+}
+
+/* about */
+/* appartments */
+.appartments {
+    background-color: #F6F5F4;
+}
+
+.appartments .items .item img {
+    width: 100%;
+}
+
+.appartments .items .item p {
+    color: var(--yellow-color);
+}
+
+.appartments .bottom a {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.appartments .bottom a:hover {
+    background-color: var(--yellow-color) !important;
+}
+
+/* appartments */
+/* how */
+.item {
+    transition: 0.3s;
+}
+
+.item:hover {
+    background-color: var(--yellow-color);
+}
+
+.how .items .item {
+    padding-bottom: 1rem;
+    margin: 3rem;
+}
+
+.how .items .item>p {
+    font-size: 140px;
+    position: relative;
+    top: -4.5rem;
+    left: -4rem;
+}
+
+.how .items .item>div {
+    display: flex;
+    justify-content: end;
+}
+
+.how .items .item div div {
+    width: 80%
+}
+
+.how .item div h4 {
+    margin-top: -5rem;
+    margin-bottom: 4rem;
+}
+
+
+.how .item div a {
+    color: #1F373D;
+}
+
+.how .item>div {
+    position: relative;
+}
+
+
+
+/* how */
+/* final */
+.final {
+    background-color: #F6F5F4;
+}
+
+.final .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--yellow-color);
+    width: 70%;
+    margin: -28px auto 0;
+    align-items: baseline;
+    position: relative;
+}
+
+.final .info i {
+    font-size: 20px
+}
+
+
+/* final */
+/* footer */
+.footer {
+    background-color: #1F373D;
+}
+
+.footer button {
+    background-image: url("../images/a.png");
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    border: none;
+    position: relative;
+}
+
+.ser {
+    height: 40px;
+    overflow: hidden;
+}
+
+.footer input {
+    height: 40px;
+    border: none;
+    background-color: #fbfbfb;
+    padding-left: 20px;
+
+}
+
+.footer input:focus {
+    border: none;
+    outline: none;
+}
+
+.footer .top {
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+
+/* footer */
